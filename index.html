@@ -4,67 +4,119 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="title-and-summary">
-    <h1>Andrew H. Moseman</h1>
-    <i>A 2023 Computer and Information Science graduate seeking a career in software development.</i>
-    <div class="summary">
-    <p>
-        &emsp;I'm experienced in backend development and machine learning, in addition to procedural generation. Primarily, I use Java and Python, with some experience in C# and JavaScript. I've worked with SQL and NoSQL databases. Namely, SQLite, MariaDB, Redis, and MongoDB. My prefered framework for REST API development is Dropwizard, though I have used Spring Boot.
-    </p>
+    <div class=top-bar>
+        <div class="title-stuff">
+            <div class="title">Andrew H. Moseman</div>
+            <div class="desc"><i>A Computer and Information Science graduate seeking a career in software development.</i>
+            </div>
+            <div class="summary">
+                I graduated from Shepherd University in May 2023. Since then, I continued gaining experience in the field through personal projects and volunteering. My experise is in backend development and machine learning, in addition to procedural generation. Java and Python are my primary programming languages, though I also have some experience in C# and JavaScript. I have used relational and non-relational databases. Such databases include SQLite, MariaDB, Redis, and MongoDB. For REST API development, which most of my personal projects have been in, I prefer to use the Dropwizard framework, though I have also used Spring Boot.
+            </div>
+        </div>
+        <div class="image-group">
+            <img src="images/portrait.jpg" alt="Portrait" title="2022 Joseph McMurran Scholarship Photo">
+            <div class="links">
+                <a href="https://github.com/a-moseman">GitHub</a>
+                <a href="https://www.linkedin.com/in/andrew-moseman-b78b34191/">LinkedIn</a>
+            </div>
+        </div>
     </div>
-</div>
-<div class="image-group">
-    <img src="images/portrait.jpg" alt="Portrait" title="2022 Joseph McMurran Scholarship Photo">
-    <div class="links">
-        <a href="https://github.com/a-moseman">GitHub</a>
-        <a href="https://www.linkedin.com/in/andrew-moseman-b78b34191/">LinkedIn</a>
+
+
+
+    <div class="projects_container">
+        <div class="projects_title">Projects</div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/a-moseman/TagSystem">TagSystem</a>
+            </div>
+            <div class="project_desc">
+                A service that provides for the organization of the entities of dependent services using tags. Tags support inheritance.
+            </div>
+            <i class="tags">Java, Dropwizard, Bouncycastle, JUnit Jooq, SQLite, REST API</i>
+
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/a-moseman/PrimeProject">PrimeProject</a>
+            </div>
+            <div class="project_desc">
+                A Java 17 program for generating prime numbers.
+            </div>
+            <i class="tags">Java, SQLite, Jooq, JUnit</i>
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/a-moseman/WaveFunctionCollapse">WaveFunctionCollapse</a>
+            </div>
+            <div class="project_desc">
+                An implementation of the Wave Function Collapse algorithm.
+            </div>
+            <i class="tags">Java, AWT, Swing, Procedural Generation</i>
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/a-moseman/GenerativeArt">GenerativeArt</a>
+            </div>
+            <div class="project_desc">
+                A Java project for procedurally generating 2D graphics.
+            </div>
+            <i class="tags">Java, Procedural Generation</i>
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/a-moseman/CertificateAuthority">Certificate Authority</a>
+            </div>
+            <div class="project_desc">
+                A work-in-progress Java implementation of a Certificate Authority, built using Spring Boot.
+            </div>
+            <i class="tags">Java, Spring Boot, X.509, PKI, RESTful API</i>
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/a-moseman/ConfigurationManagementDatabase/tree/v.3.3.0">Configuration Management Database</a>
+            </div>
+            <div class="project_desc">
+                A Java implementation of a Configuration Management Database which supports Redis or MongoDB as the underlying database, built using the dropwizard framework.
+            </div>
+            <i class="tags">Java, Dropwizard, Redis, MongoDB, JUnit, RESTful API, Unit testing</i>
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/CIS485ChessEngineTeam/RLChessEngine">Reinforcement Learning Chess Engine</a></h3>
+            </div>
+            <div class="project_desc">
+                A Reinforcement Learning Chess Engine written in Java as my university capstone project. The core libraries used were Deeplearning4j and chesslib.
+            </div>
+            <i class="tags">Java, Deeplearning4j, Convolutional Neural Neworks, Deep Q Networks</i>
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/KeagenT/course-scraper">Course Scraper</a>
+            </div>
+            <div class="project_desc">
+                Group project to scrape courses from Shepherd Universities course catalog and display them as a prerequsite graph.
+            </div>
+            <i class="tags">JavaScript, Python, HTML, CSS, Scrapy, D3</i>
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/ShepherdCode/Soars2021">mRNA vs lncRNA Classification</a>
+            </div>
+            <div class="project_desc">
+                Worked with other students underneath professor supervision on applying machine learning to human RNA sequence classification from the <a href="https://www.gencodegenes.org/human/">GENCODE</a> database.
+            </div>
+            <i class="tags">Python, Keras, NumPy, Convolutional Neural Neworks</i>
+        </div>
     </div>
-</div>
-<h2>Projects</h2>
-<h3><a class="project" href="https://github.com/a-moseman/TagSystem">TagSystem</a></h3>
-<p>
-    A service that provides for the organization of the entities of dependent services using tags. Tags support inheritance.
-    <i class="tags"><br><br>Java, Dropwizard, Bouncycastle, JUnit Jooq, SQLite, REST API</i>
-</p>
-<h3><a class="project" href="https://github.com/a-moseman/PrimeProject">PrimeProject</a></h3>
-<p>
-    A Java 17 program for generating prime numbers.
-    <i class="tags"><br><br>Java, SQLite, Jooq, JUnit</i>
-</p>
-<h3><a class="project" href="https://github.com/a-moseman/WaveFunctionCollapse">WaveFunctionCollapse</a></h3>
-<p>
-    An implementation of the Wave Function Collapse algorithm.
-    <i class="tags"><br><br>Java, AWT, Swing, Procedural Generation</i>
-</p>
-<h3><a class="project" href="https://github.com/a-moseman/GenerativeArt">GenerativeArt</a></h3>
-<p>
-    A Java project for procedurally generating 2D graphics.
-    <i class="tags"><br><br>Java, Procedural Generation</i>
-</p>
-<h3><a class="project" href="https://github.com/a-moseman/CertificateAuthority">Certificate Authority</a></h3>
-<p>
-    A work-in-progress Java implementation of a Certificate Authority, built using Spring Boot.
-    <i class="tags"><br><br>Java, Spring Boot, X.509, PKI, RESTful API</i>
-</p>
-<h3><a class="project" href="https://github.com/a-moseman/ConfigurationManagementDatabase/tree/v.3.3.0">Configuration Management Database</a></h3>
-<p>
-    A Java implementation of a Configuration Management Database which supports Redis or MongoDB as the underlying database, built using the dropwizard framework.
-    <i class="tags"><br><br>Java, Dropwizard, Redis, MongoDB, JUnit, RESTful API, Unit testing</i>
-</p>  
-<h3><a class="project" href="https://github.com/CIS485ChessEngineTeam/RLChessEngine">Reinforcement Learning Chess Engine</a></h3>
-<p>
-    A Reinforcement Learning Chess Engine written in Java as my university capstone project. The core libraries used were Deeplearning4j and chesslib.
-    <i class="tags"><br><br>Java, Deeplearning4j, Convolutional Neural Neworks, Deep Q Networks</i>
-</p>
-<h3><a class="project" href="https://github.com/KeagenT/course-scraper">Course Scraper</a></h3>
-<p>
-    Group project to scrape courses from Shepherd Universities course catalog and display them as a prerequsite graph.
-    <i class="tags"><br><br>JavaScript, Python, HTML, CSS, Scrapy, D3</i>
-</p>
-<h3><a class="project" href="https://github.com/ShepherdCode/Soars2021">mRNA vs lncRNA Classification</a></h3>
-<p>
-    Worked with other students underneath professor supervision on applying machine learning to human RNA sequence classification from the <a href="https://www.gencodegenes.org/human/">GENCODE</a> database.
-    <i class="tags"><br><br>Python, Keras, NumPy, Convolutional Neural Neworks</i>
-</p>
 </body>
 </html> 

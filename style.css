@@ -2,61 +2,89 @@ body {
     background-color: rgb(33, 33, 33);
     color: rgb(220, 240, 220);
     font-family: Arial, Helvetica, sans-serif;
-    z-index: 1;
-    position: relative;
+}
+
+.top-bar {
+    display: flex;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.title-stuff {
+    display: flex;
+    flex-flow: column;
+    margin-right: 32px;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.desc {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.summary {
+    font-size: 16px;
+    margin-bottom: 16px;
 }
 
 .image-group {
-    width: 33%;
-    max-width: 480px;
-    float: right;
-    display: inline-block;
-    padding-bottom: 32px;
-    padding-right: 2.5%;
-    padding-top: 32px;
+    margin-top: 12px;;
+    min-width: 320px;
+    max-width: 320px;
 }
-img {
-    width: 100%;
-    border-radius: 8%;
-}
-.links {
+
+.image-group .links {
     text-align: center;
     font-size: small;
 }
 
-.title-and-summary {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 32px;
+img {
+    width: 100%;
+    border-radius: 8%;
 }
 
-.summary {
-    text-align: left;
+.projects_container {
+    display: flex;
+    flex-flow: column;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
-h2 {
-    padding-left: 2.5%;
-}
-
-p {
-    padding-left: 2.5%;
+.projects_title {
+    font-size: 36px;
+    padding-bottom: 8px;
+    border-style: none none dotted none;
 }
 
 .project {
-    padding-left: 2.5%;
-    color: rgb(180, 180, 250);
+    border-style: solid solid solid solid;
+    border-radius: 16px;
+    width: fit-content;
+    margin-top: 16px;
+    padding: 16px;
 }
 
-a {
-    color: rgb(180, 180, 250);
+.project_title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.project_desc {
+    margin-bottom: 8px;
 }
 
 .tags {
     color: rgb(180, 200, 180);
 }
 
-canvas {
-    z-index: -1;
-    position: relative;
-    padding-top: 15%;
+a {
+    color: rgb(180, 180, 250);
 }
+
+
+
