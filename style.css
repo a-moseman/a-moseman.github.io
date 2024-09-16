@@ -1,12 +1,12 @@
 :root {
-    --background: #fff5e6;
-    --text: #1f1d20;
-    --project-background: #7b7380;
-    --project-text: #fff5e6;
-    --project-title: #e6fff5;
-    --tag: #d9d0c3;
-    --link: #d9d0c3;
-    --border: #1f1d20;
+    --background: #291f32;
+    --text: #e4ddbb;
+    --project-background: #e4ddbb;
+    --project-text: #291f32;
+    --project-title: #79694e;
+    --tag: #655a5c;
+    --link: #e9cf81;
+    --border: #79694e;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.links {
+.link {
     color: var(--link);
 }
 
@@ -104,6 +104,3 @@ img {
 .tags {
     color: var(--tag);
 }
-
-
-
