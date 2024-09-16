@@ -15,6 +15,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.links {
+    text-align: center;
+    font-size: 14px;
+}
+
 .link {
     color: var(--link);
 }
@@ -51,11 +56,6 @@ body {
     margin-top: 12px;;
     min-width: 320px;
     max-width: 320px;
-}
-
-.image-group .links {
-    text-align: center;
-    font-size: small;
 }
 
 img {
