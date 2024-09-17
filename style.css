@@ -34,6 +34,8 @@ a {
     margin-right: 32px;
     margin-left: 32px;
     margin-top: 32px;
+    padding-bottom: 16px;
+    border-style: none none dotted none;
 }
 
 .title-stuff {
@@ -85,9 +87,9 @@ img {
 .projects_title {
     margin-left: 32px;
     margin-right: 32px;
+    margin-top: 16px;
     font-size: 36px;
     padding-bottom: 8px;
-    border-style: none none dotted none;
 }
 
 .project_container_title {
