@@ -129,6 +129,10 @@ img {
     color: var(--tag);
 }
 
+.project-tag {
+    color: var(--project-title);
+}
+
 .project {
     position: relative;
     display: inline-block;
