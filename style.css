@@ -128,3 +128,13 @@ img {
 .tags {
     color: var(--tag);
 }
+
+.project {
+    position: relative;
+    display: inline-block;
+}
+.project-content {
+    display: none;
+
+}
+.project:hover .project-content {display:block;}
