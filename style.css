@@ -89,14 +89,6 @@ img {
     flex-flow: row wrap;
 }
 
-.projects_title {
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-top: 16px;
-    font-size: 36px;
-    padding-bottom: 8px;
-}
-
 .project_container_title {
     font-size: 24px;
     padding-top: 16px;
@@ -108,7 +100,7 @@ img {
     background-color: var(--project-background);
     border-color: var(--border);
     border-style: solid solid solid solid;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 16px;
     width: fit-content;
     margin-top: 16px;
@@ -119,7 +111,7 @@ img {
 
 .project_title {
     font-size: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 }
 
 .project_title a {
@@ -127,6 +119,7 @@ img {
 }
 
 .project_desc {
+    margin-top: 8px;
     margin-bottom: 8px;
 }
 
