@@ -150,6 +150,6 @@ window.onload = () => {
 				"Java, Dropwizard, Bouncycastle, JUnit, Jooq, SQLite, REST API");
 
 	add_course("TODO", "CS 530 - Mathematical Foundations of CS", "George Mason University", "Master's of Computer Science", "A-");
-	add_course("TODO", "CS 531 - Computer Systems and System Program", "George Mason University", "Master's of Computer Science", "A");
+	add_course("TODO", "CS 531 - Computer Systems and System Programming", "George Mason University", "Master's of Computer Science", "A");
 	add_course("TODO", "CS 580 - Intro Artificial Intelligence", "George Mason University", "Master's of Computer Science", "A+");
 }
