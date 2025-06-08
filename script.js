@@ -149,7 +149,32 @@ window.onload = () => {
 				"A service that provides for the organization of the entities of dependent services using tags. Tags support inheritance.",
 				"Java, Dropwizard, Bouncycastle, JUnit, Jooq, SQLite, REST API");
 
-	add_course("TODO", "CS 530 - Mathematical Foundations of CS", "George Mason University", "Master's of Computer Science", "A-");
-	add_course("TODO", "CS 531 - Computer Systems and System Programming", "George Mason University", "Master's of Computer Science", "A");
-	add_course("TODO", "CS 580 - Intro Artificial Intelligence", "George Mason University", "Master's of Computer Science", "A+");
+	add_course("TODO", "CS 530 - Mathematical Foundations of CS", "George Mason University", "Computer Science Master's Degree", "A-");
+	add_course("TODO", "CS 531 - Computer Systems and System Programming", "George Mason University", "Computer Science Master's Degree", "A");
+	add_course("TODO", "CS 580 - Intro Artificial Intelligence", "George Mason University", "Computer Science Master's Degree", "A+");
+
+	add_course("TODO", "CIS 487 - Software Engineering", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "MATH 354 - Operations Research", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "MATH 307 - Intro to Linear Algebra", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 431 - Algorithms", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 331 - Programming Languages", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "MATH 314 - Statistics", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 405 - Computer Graphics", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 388 - Database Management Systems", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 321 - Data & File Structures", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 254 - Discrete Mathematics", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 418 - Management Information Systems", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 390 - Operating Systems", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 332 - Web Programming I", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "MATH 155 - Discrete Structures", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 386 - Computer Organization", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 314 - Advanced Computer Language Concepts", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 310 - Information Security", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "MATH 207 - Calculus I", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 302 - Windows Programming", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 287 - Systems Analysis and Design", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 234 - Intro to Networking", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 211 - Computer Language Concepts", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "DATA 118 - Data Analytics Introduction", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	add_course("TODO", "CIS 104 - Intro to Computer and Information Science", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
 }
