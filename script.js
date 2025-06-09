@@ -29,6 +29,7 @@ function add_project(link, name, desc, tags) {
 
 	project.appendChild(project_content);
 
+	/*
 	var flag = false;
 	project.addEventListener("click", () => {
 		if (!flag) {
@@ -40,6 +41,13 @@ function add_project(link, name, desc, tags) {
 			flag = false;
 		}
 	})
+	*/
+	project.addEventListener("mouseenter", () => {
+		project_content.style.display = "block";
+	});
+	project.addEventListener("mouseleave", () => {
+		project_content.style.display = "none";
+	});
 
 	project_stack.appendChild(project);
 }
@@ -87,6 +95,7 @@ function add_course(link, name, school, program, grade) {
 
 	course.appendChild(course_content);
 
+	/*
 	var flag = false;
 	course.addEventListener("click", () => {
 		if (!flag) {
@@ -98,6 +107,13 @@ function add_course(link, name, school, program, grade) {
 			flag = false;
 		}
 	})
+	*/
+	course.addEventListener("mouseenter", () => {
+		course_content.style.display = "block";
+	});
+	course.addEventListener("mouseleave", () => {
+		course_content.style.display = "none";
+	});
 
 	course_stack.appendChild(course);
 }
