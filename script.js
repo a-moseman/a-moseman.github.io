@@ -42,12 +42,14 @@ function add_project(link, name, desc, tags) {
 		}
 	})
 	*/
+	/*
 	project.addEventListener("mouseenter", () => {
 		project_content.style.display = "block";
 	});
 	project.addEventListener("mouseleave", () => {
 		project_content.style.display = "none";
 	});
+	*/
 
 	project_stack.appendChild(project);
 }
@@ -108,12 +110,14 @@ function add_course(link, name, school, program, grade) {
 		}
 	})
 	*/
+	/*
 	course.addEventListener("mouseenter", () => {
 		course_content.style.display = "block";
 	});
 	course.addEventListener("mouseleave", () => {
 		course_content.style.display = "none";
 	});
+	*/
 
 	course_stack.appendChild(course);
 }
