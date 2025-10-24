@@ -149,15 +149,15 @@ window.onload = () => {
 				"An implementation of the Wave Function Collapse algorithm.",
 				"Java, AWT, Swing, Procedural Generation");
 
-	add_project("https://github.com/a-moseman/PrimeProject",
-				"PrimeProject",
-				"A Java 17 program for generating prime numbers.",
-				"Java, SQLite, Jooq, JUnit, Multithreading");
+	// add_project("https://github.com/a-moseman/PrimeProject",
+	// 			"PrimeProject",
+	// 			"A Java 17 program for generating prime numbers.",
+	// 			"Java, SQLite, Jooq, JUnit, Multithreading");
 
-	add_project("https://github.com/a-moseman/ConfigurationManagementDatabase/tree/v.3.3.0",
-				"Configuration Management Database",
-				"A Java implementation of a Configuration Management Database which supports Redis or MongoDB as the underlying database, built using the Dropwizard framework.",
-				"Java, Dropwizard, Redis, MongoDB, JUnit, RESTful API, Unit testing");
+	// add_project("https://github.com/a-moseman/ConfigurationManagementDatabase/tree/v.3.3.0",
+	// 			"Configuration Management Database",
+	// 			"A Java implementation of a Configuration Management Database which supports Redis or MongoDB as the underlying database, built using the Dropwizard framework.",
+	// 			"Java, Dropwizard, Redis, MongoDB, JUnit, RESTful API, Unit testing");
 
 	add_project("https://github.com/a-moseman/CertificateAuthority",
 				"Certificate Authority",
@@ -168,7 +168,7 @@ window.onload = () => {
 				"TagSystem",
 				"A service that provides for the organization of the entities of dependent services using tags. Tags support inheritance.",
 				"Java, Dropwizard, Bouncycastle, JUnit, Jooq, SQLite, REST API");
-
+	/*
 	add_course("TODO", "CS 530 - Mathematical Foundations of CS", "George Mason University", "Computer Science Master's Degree", "A-");
 	add_course("TODO", "CS 531 - Computer Systems and System Programming", "George Mason University", "Computer Science Master's Degree", "A");
 	add_course("TODO", "CS 580 - Intro Artificial Intelligence", "George Mason University", "Computer Science Master's Degree", "A+");
@@ -197,4 +197,5 @@ window.onload = () => {
 	add_course("TODO", "CIS 211 - Computer Language Concepts", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
 	add_course("TODO", "DATA 118 - Data Analytics Introduction", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
 	add_course("TODO", "CIS 104 - Intro to Computer and Information Science", "Shepherd University", "Computer and Information Science Bachelor Degree", "A");
+	*/
 }
